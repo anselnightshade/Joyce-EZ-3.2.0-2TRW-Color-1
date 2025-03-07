@@ -372,10 +372,10 @@ void autonomous() {
   //ez::as::auton_selector.selected_auton_call();  // Calls selected auton from autonomous selector
   //joyce_com_blue_left(intakeMotor, clamp_piston, optical_sensor, intake_blue_autotask, liftMotor); //blue_positive 2
   //joyce_com_red_right(intakeMotor, clamp_piston, optical_sensor, intake_red_autotask, liftMotor); //red_positive 3
-  //joyce_com_red_left(intakeMotor, clamp_piston, optical_sensor, intake_red_autotask, liftMotor); //red_negative 4
+  joyce_com_red_left(intakeMotor, clamp_piston, optical_sensor, intake_red_autotask, liftMotor); //red_negative 4
   //joyce_com_blue_right(intakeMotor, clamp_piston, optical_sensor, intake_blue_autotask, liftMotor); //blue_negative 5
   //No stuck test joyce_com_skill(intakeMotor, clamp_piston);
-  joyce_com_skill_stuck(intakeMotor, clamp_piston, intake_stuck_autotask, liftMotor);//skills 6
+  //joyce_com_skill_stuck(intakeMotor, clamp_piston, intake_stuck_autotask, liftMotor);//skills 6
 }
 
 /**
